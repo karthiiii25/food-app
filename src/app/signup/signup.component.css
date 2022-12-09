@@ -1,0 +1,26 @@
+.row
+{
+    background-color: antiquewhite;
+    display: block;
+    max-width: 400px;
+    margin: auto;
+    background-color: antiquewhite;
+    padding-top: 30px;
+    border-radius: 18px;
+    padding: 32px;
+    margin-top: 155px;
+}
+.texta1
+{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.t6 mat-form-field
+{
+    width:100%
+}
+.center
+{
+    display: flex;
+    justify-content: center;
+}

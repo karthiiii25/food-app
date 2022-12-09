@@ -1,0 +1,18 @@
+<div class="form-container mat-elevation-z5">
+   <span class='material-icons n1'>person</span>
+    <h1 class="e1">Login</h1>
+    <form [formGroup]="loginForm">
+       <mat-form-field>
+          <input matInput placeholder="email address"  formControlName="email" name="email" [(ngModel)]="email" />
+       </mat-form-field>
+       <mat-form-field>
+          <input matInput placeholder="password" formControlName="password" type="password" name="password" [(ngModel)]="password"/>
+       </mat-form-field>
+       <div class="center margin-top">
+          <button mat-raised-button color="primary" type="submit"(click)="btnClick('orderform')" (click)="login()">login</button>
+       </div>
+    </form>
+</div>
+<div class="signup">
+   <div class="center margin-top">dont have an account?<a href="C:\Users\KARTHIKA\Documents\angular\food-app\src\app\signup"(click)="linkClick('signup');">sign up!</a></div>
+</div>

@@ -1,0 +1,13 @@
+.container-fluid
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 70px;
+    background-color: rgb(200, 198, 198);
+}
+
+.searchbar button
+{
+    background: #f0932b;
+}

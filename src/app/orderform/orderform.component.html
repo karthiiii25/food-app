@@ -1,0 +1,33 @@
+<div class="container">
+    <h2 class="text1">fill this form to confirm your order</h2>
+    <form [formGroup]="loginForm" class="t5">
+        <mat-form-field>
+           <input matInput placeholder="full name" formControlName="email" />
+        </mat-form-field>
+        <mat-form-field>
+           <input matInput placeholder="alternative phonenumber" formControlName="email" />
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+            <mat-label>address</mat-label>
+            <textarea matInput></textarea>
+          </mat-form-field>
+         <mat-form-field>
+            <input matInput placeholder="add landmark" formControlName="email" />
+         </mat-form-field>
+         <mat-form-field>
+            <input matInput placeholder="mention quantity of the food item choosen" formControlName="email" />
+         </mat-form-field>
+         <label for="frame">add ons</label><br>
+         <select name="add ons" class="style">
+            <option value="cheese" class="style a1">Extra cheese layer</option>
+            <option value="specialitalianherbs" class="style a1">Special italian herbs</option>
+            <option value="jalepenoolivescombo" class="style a1">Jalepeno,olives combo</option>
+            <option value="Frenchbread" class="style a1">French bread</option>
+            <option value="Potatorolls" class="style a1">Potato rolls</option>
+        </select><br><br>
+         <div class="center margin-top">
+            <button mat-raised-button color="primary" type="submit" onclick="alert('YOUR ORDER IS CONFIRMED! THANKYOU FOR ORDERING! YOU CAN COLLECT YOUR BILL AT DOORSTEP.ENJOY.')">confirm order</button>
+         </div>
+    </form><br>
+    <h4 class="text1">(payment at doorstep via cash only)</h4>
+</div>

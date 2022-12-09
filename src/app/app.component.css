@@ -1,0 +1,32 @@
+.c1
+{
+    height: 150px;
+    border-bottom: 1px solid gray;
+    background-color: black;
+}
+.c3
+{
+    height: 900px;
+    background-color: black;
+}
+.c4
+{
+    height: 150px;
+    border-top: 1px solid gray;
+    background-color: black;
+}
+.z1
+{
+    padding-top: 6%;
+    padding-left: 450px;
+    border-bottom: 1px solid gray;
+    background-color: black;
+
+}
+.z1 a
+{
+    text-decoration: none;
+    font-weight: bold;
+    font-size:20px;
+    color: antiquewhite;
+}

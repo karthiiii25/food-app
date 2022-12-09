@@ -1,0 +1,29 @@
+<div class="row">
+    <h2 class="texta1">Sign up!</h2>
+    <form class="t6">
+        <mat-form-field appearance="fill">
+            <mat-label>First name</mat-label>
+            <input matInput placeholder="enter you first name">
+            <mat-hint>ex:karthika</mat-hint>
+        </mat-form-field><br>
+        <mat-form-field appearance="fill">
+            <mat-label>last name</mat-label>
+            <input matInput placeholder="enter your last name" >
+            <mat-hint>ex:kannan</mat-hint>
+        </mat-form-field>
+    </form>
+    <form [formGroup]="loginForm"  class="t6">
+        <mat-form-field appearance="fill">
+            <mat-label>email id</mat-label>
+           <input matInput placeholder="enter your email address" formControlName="email" name="email" [(ngModel)]="email"/>
+           <mat-hint>ex:karthika25@gmail.com</mat-hint>
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+            <mat-label>Password</mat-label>
+           <input matInput placeholder="create a password" formControlName="password" type="password" name="password" [(ngModel)]="password"/>
+        </mat-form-field>
+        <div class="center margin-top">
+           <button mat-raised-button color="primary" type="submit" (click)="linkClick('orderform');"(click)="register()">confrim to signup</button>
+        </div>
+     </form>
+</div>

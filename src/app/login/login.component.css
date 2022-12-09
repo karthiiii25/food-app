@@ -1,0 +1,37 @@
+.e1
+{
+    text-align: center;
+    color: black;
+}
+.form-container
+{
+    display: block;
+    max-width: 400px;
+    margin: auto;
+    background-color: antiquewhite;
+    padding-top: 30px;
+    border-radius: 18px;
+    padding: 32px;
+    margin-top: 155px;
+}
+.form-container mat-form-field
+{
+    width:100%
+}
+.center
+{
+    display: flex;
+    justify-content: center;
+}
+.margin-top
+{
+    margin-top: 16px;
+    color: antiquewhite;
+    font-size: medium;
+}
+.n1
+{
+    font-size: 60px;
+    padding-left: 139px;
+    color: black;
+}
